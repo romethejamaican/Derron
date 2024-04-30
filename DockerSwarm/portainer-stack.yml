@@ -1,4 +1,5 @@
 version: '3.2'
+services:
   portainer:
     image: portainer/portainer-ce:2.20.1
     command: -H tcp://tasks.agent:9001 --tlsskipverify
